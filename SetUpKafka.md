@@ -235,7 +235,7 @@ auto.create.topics.enable=false
 ## List the topics in a cluster
 
 ```
-kafka-topics.bat --zookeeper localhost:2181 --list
+kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
 ## Describe topic
