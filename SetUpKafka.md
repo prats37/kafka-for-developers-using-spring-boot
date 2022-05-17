@@ -243,7 +243,7 @@ kafka-topics.bat --zookeeper localhost:2181 --list
 - The below command can be used to describe all the topics.
 
 ```
-kafka-topics.bat --zookeeper localhost:2181 --describe
+kafka-topics.bat --bootstrap-server localhost:9092 --describe
 ```
 
 - The below command can be used to describe a specific topic.
